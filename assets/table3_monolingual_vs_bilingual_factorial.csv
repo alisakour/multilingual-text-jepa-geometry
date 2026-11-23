@@ -1,0 +1,7 @@
+Training Corpus,Language Pair,Monolingual 10-NN (%),Bilingual 10-NN (%),Δ(Mono - Biling) [10-NN],Mono RotCos / Biling RotCos,Mono Erank / Biling Erank
+FLORES (15-Lang),AR <-> EN (Semitic),27.32% ± 0.54%,25.84% ± 0.54%,+1.47%***,0.873 / 0.871 (+0.002 ns),67.8 / 58.6
+FLORES (15-Lang),ZH <-> EN (Logographic),24.95% ± 0.55%,25.33% ± 0.57%,-0.38% ns,0.816 / 0.792 (+0.023***),75.3 / 57.4
+FLORES (15-Lang),FR <-> EN (Latin),35.90% ± 0.57%,34.78% ± 0.58%,+1.11%**,0.948 / 0.954 (-0.006**),61.0 / 51.5
+OPUS100 (15-Lang),AR <-> EN (Semitic),27.61% ± 0.53%,25.61% ± 0.51%,+2.00%***,0.872 / 0.871 (+0.002**),68.3 / 58.0
+OPUS100 (15-Lang),ZH <-> EN (Logographic),27.58% ± 0.54%,27.46% ± 0.54%,+0.12% ns,0.810 / 0.829 (-0.019***),72.7 / 55.1
+OPUS100 (15-Lang),FR <-> EN (Latin),38.13% ± 0.58%,36.46% ± 0.58%,+1.67%***,0.933 / 0.941 (-0.008***),63.4 / 51.2
