@@ -27,6 +27,7 @@ outputs/
 !assets/*.csv
 !assets/*.png
 !assets/*.pdf
+!assets/meanpool_control/*.csv
 
 # Notebooks & OS
 .ipynb_checkpoints/
