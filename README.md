@@ -23,11 +23,12 @@ A modular evaluation suite for analyzing cross-lingual representation geometry, 
 
 5. **Pooling-Invariant MeanPool Control (`--pooling_override mean`):**
    Re-evaluating all 9 models with MeanPool rules out `[CLS]`-specific artifacts: at `L9`, `4b. SIGReg` still matches `4a. InfoNCE` (`AR: 37.60% vs. 37.03%`, `ZH: 37.03% vs. 36.67%`, `FR: 47.13% vs. 46.20%`), yet still shatters between `L9 → L12` (`-16.85%***` AR, `-12.22%***` ZH, `-20.79%***` FR; `RotCos -0.188***` to `-0.241***`). Meanwhile, `4a. InfoNCE` (`Top-1 = 70.6% / 75.1% / 93.1%`) and `Mono-15L` consistently outperform `XLM-R [MeanPool]` and bilingual packing across every language pair (`p < 10^-3`, BH-FDR).
+
 ---
 
 ## Publication Figures & Summary Tables
 
-All 5 statistical tables (`table1`–`table5`) and figures are archived in [`assets/`](assets/).
+All 5 statistical tables (`table1`–`table5`), MeanPool control tables (`assets/meanpool_control/`), and figures are archived in [`assets/`](assets/).
 
 ### Figure 1: Layer-Wise Topological Alignment, Spectral Funneling & Platonic Procrustes Alignment
 ![Layer-wise Trajectories](assets/figure1_jepa_platonic_trajectories_1x3.png)
@@ -41,7 +42,7 @@ All 5 statistical tables (`table1`–`table5`) and figures are archived in [`ass
 
 ```text
 multilingual-text-jepa-geometry/
-├── assets/                      # 300-DPI figures (PNG) & summary CSV tables (Tables 1-5)
+├── assets/                      # 300-DPI figures, Tables 1-5 & MeanPool control tables
 ├── configs/models.yaml          # 9-model registry (XLM-R, 6x BERT-JEPA, mE5-Base)
 ├── src/
 │   ├── data/
