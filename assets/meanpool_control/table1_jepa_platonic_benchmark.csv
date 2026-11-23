@@ -1,0 +1,28 @@
+Language Pair,Model,Mutual 10-NN (%) [FDR],Unrotated Cos (I),Procrustes Cos (R*) [FDR],Rotation Gain (ΔCos),5-Fold Top-1 / Top-5 (R*),Eff. Spectral Rank
+AR <-> EN (Semitic),1a. XLM-R Base (Token MLM — [CLS]),28.06 ± 0.46 (Base),0.365 ± 0.005,0.629 ± 0.005 (Base),+0.263,49.8% / 74.8%,333.6
+AR <-> EN (Semitic),1b. XLM-R Base (Token MLM — MeanPool Control),28.06 ± 0.46 ns,0.365 ± 0.005,0.629 ± 0.005 ns,+0.263,49.8% / 74.8%,333.6
+AR <-> EN (Semitic),2a. BERT-JEPA (Mono-15L FLORES — InfoNCE),33.10 ± 0.54***,0.766 ± 0.007,0.824 ± 0.005***,+0.058,42.1% / 66.6%,178.8
+AR <-> EN (Semitic),2b. BERT-JEPA (Biling-15L FLORES — InfoNCE),28.35 ± 0.54 ns,0.842 ± 0.007,0.863 ± 0.006***,+0.021,24.9% / 50.2%,69.2
+AR <-> EN (Semitic),3a. BERT-JEPA (Mono-15L OPUS100 — InfoNCE),34.53 ± 0.53***,0.732 ± 0.004,0.827 ± 0.003***,+0.094,54.3% / 78.7%,210.6
+AR <-> EN (Semitic),3b. BERT-JEPA (Biling-15L OPUS100 — InfoNCE),27.85 ± 0.52 ns,0.850 ± 0.005,0.875 ± 0.004***,+0.025,27.9% / 54.6%,67.8
+AR <-> EN (Semitic),4a. BERT-JEPA (5-Lang OPUS100 — InfoNCE Twin),33.52 ± 0.51***,0.398 ± 0.004,0.665 ± 0.004***,+0.267,70.6% / 91.2%,327.7
+AR <-> EN (Semitic),4b. BERT-JEPA (5-Lang OPUS100 — LeCun SIGReg),20.75 ± 0.43***,0.317 ± 0.008,0.503 ± 0.008***,+0.186,30.0% / 48.3%,269.2
+AR <-> EN (Semitic),5. mE5-Base (1B-Pair Contrastive Upper-Bound),55.48 ± 0.52***,0.554 ± 0.003,0.693 ± 0.004***,+0.139,97.6% / 100.0%,414.3
+ZH <-> EN (Logographic),1a. XLM-R Base (Token MLM — [CLS]),27.36 ± 0.47 (Base),0.220 ± 0.005,0.583 ± 0.004 (Base),+0.363,57.9% / 81.2%,334.2
+ZH <-> EN (Logographic),1b. XLM-R Base (Token MLM — MeanPool Control),27.36 ± 0.47 ns,0.220 ± 0.005,0.583 ± 0.004 ns,+0.363,57.9% / 81.2%,334.2
+ZH <-> EN (Logographic),2a. BERT-JEPA (Mono-15L FLORES — InfoNCE),30.96 ± 0.52***,0.682 ± 0.007,0.785 ± 0.005***,+0.103,39.9% / 66.6%,187.3
+ZH <-> EN (Logographic),2b. BERT-JEPA (Biling-15L FLORES — InfoNCE),27.12 ± 0.56 ns,0.709 ± 0.008,0.792 ± 0.005***,+0.083,18.4% / 40.9%,66.4
+ZH <-> EN (Logographic),3a. BERT-JEPA (Mono-15L OPUS100 — InfoNCE),34.53 ± 0.51***,0.614 ± 0.005,0.768 ± 0.004***,+0.155,53.3% / 79.0%,221.3
+ZH <-> EN (Logographic),3b. BERT-JEPA (Biling-15L OPUS100 — InfoNCE),29.54 ± 0.53***,0.772 ± 0.006,0.834 ± 0.005***,+0.061,22.8% / 50.6%,63.9
+ZH <-> EN (Logographic),4a. BERT-JEPA (5-Lang OPUS100 — InfoNCE Twin),32.66 ± 0.50***,0.349 ± 0.004,0.643 ± 0.004***,+0.294,75.1% / 91.1%,333.9
+ZH <-> EN (Logographic),4b. BERT-JEPA (5-Lang OPUS100 — LeCun SIGReg),24.81 ± 0.47***,0.147 ± 0.004,0.513 ± 0.005***,+0.366,40.7% / 66.9%,315.4
+ZH <-> EN (Logographic),5. mE5-Base (1B-Pair Contrastive Upper-Bound),52.59 ± 0.52***,0.483 ± 0.003,0.674 ± 0.004***,+0.191,96.6% / 99.8%,407.3
+FR <-> EN (Latin),1a. XLM-R Base (Token MLM — [CLS]),33.58 ± 0.47 (Base),0.469 ± 0.005,0.692 ± 0.004 (Base),+0.223,76.3% / 90.9%,339.9
+FR <-> EN (Latin),1b. XLM-R Base (Token MLM — MeanPool Control),33.58 ± 0.47 ns,0.469 ± 0.005,0.692 ± 0.004 ns,+0.223,76.3% / 90.9%,339.9
+FR <-> EN (Latin),2a. BERT-JEPA (Mono-15L FLORES — InfoNCE),40.67 ± 0.54***,0.889 ± 0.003,0.921 ± 0.003***,+0.032,71.2% / 88.2%,166.9
+FR <-> EN (Latin),2b. BERT-JEPA (Biling-15L FLORES — InfoNCE),37.83 ± 0.57***,0.944 ± 0.003,0.952 ± 0.003***,+0.008,46.0% / 73.8%,63.0
+FR <-> EN (Latin),3a. BERT-JEPA (Mono-15L OPUS100 — InfoNCE),44.40 ± 0.54***,0.840 ± 0.003,0.896 ± 0.003***,+0.055,83.0% / 93.2%,202.7
+FR <-> EN (Latin),3b. BERT-JEPA (Biling-15L OPUS100 — InfoNCE),38.13 ± 0.57***,0.926 ± 0.003,0.941 ± 0.002***,+0.015,51.4% / 78.4%,60.6
+FR <-> EN (Latin),4a. BERT-JEPA (5-Lang OPUS100 — InfoNCE Twin),45.20 ± 0.52***,0.617 ± 0.004,0.775 ± 0.003***,+0.158,93.1% / 98.4%,340.0
+FR <-> EN (Latin),4b. BERT-JEPA (5-Lang OPUS100 — LeCun SIGReg),26.34 ± 0.45***,0.424 ± 0.009,0.584 ± 0.007***,+0.159,44.0% / 59.2%,275.4
+FR <-> EN (Latin),5. mE5-Base (1B-Pair Contrastive Upper-Bound),68.74 ± 0.43***,0.799 ± 0.002,0.862 ± 0.002***,+0.063,99.4% / 100.0%,411.1

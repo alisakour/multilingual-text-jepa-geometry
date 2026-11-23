@@ -1,0 +1,19 @@
+Model,Cultural Domain,Matched N,Joint-Pool 10-NN (N=1725),Joint-Pool RotCos (R*),Matched-Pool 10-NN (N=555),Matched-Pool Top-1 / Top-5,Matched Eff. Rank (AR),Domain Gap Sig [FDR]
+XLM-R [CLS],Global (1:1 Relation-Matched),555,25.42% ± 0.79%,0.612 ± 0.008,31.66% ± 0.84%,50.8% / 78.9%,245.6,—
+XLM-R [CLS],Local (Arab/MENA Ontology),555,33.77% ± 0.83%,0.676 ± 0.008,41.05% ± 0.98%,64.3% / 87.9%,204.5,***
+XLM-R [MeanPool],Global (1:1 Relation-Matched),555,25.42% ± 0.79%,0.612 ± 0.008,31.66% ± 0.84%,50.8% / 78.9%,245.6,—
+XLM-R [MeanPool],Local (Arab/MENA Ontology),555,33.77% ± 0.83%,0.676 ± 0.008,41.05% ± 0.98%,64.3% / 87.9%,204.5,***
+JEPA Mono-15L (FLORES),Global (1:1 Relation-Matched),555,30.63% ± 0.94%,0.815 ± 0.011,40.74% ± 1.01%,47.6% / 77.7%,129.6,—
+JEPA Mono-15L (FLORES),Local (Arab/MENA Ontology),555,36.99% ± 0.89%,0.855 ± 0.007,47.30% ± 1.02%,60.7% / 85.4%,111.0,***
+JEPA Biling-15L (FLORES),Global (1:1 Relation-Matched),555,27.48% ± 0.95%,0.853 ± 0.011,38.68% ± 1.12%,36.0% / 67.2%,53.2,—
+JEPA Biling-15L (FLORES),Local (Arab/MENA Ontology),555,31.24% ± 0.92%,0.898 ± 0.007,43.91% ± 1.03%,40.0% / 73.7%,47.7,***
+JEPA Mono-15L (OPUS),Global (1:1 Relation-Matched),555,32.65% ± 0.92%,0.822 ± 0.006,41.30% ± 1.01%,62.5% / 88.6%,155.8,—
+JEPA Mono-15L (OPUS),Local (Arab/MENA Ontology),555,38.43% ± 0.92%,0.842 ± 0.006,49.17% ± 1.02%,75.7% / 93.2%,135.1,***
+JEPA Biling-15L (OPUS),Global (1:1 Relation-Matched),555,26.63% ± 0.89%,0.879 ± 0.007,38.41% ± 1.00%,41.8% / 75.9%,52.8,—
+JEPA Biling-15L (OPUS),Local (Arab/MENA Ontology),555,29.44% ± 0.92%,0.878 ± 0.006,40.54% ± 0.95%,42.0% / 77.7%,51.6,*
+JEPA 5L-InfoNCE (OPUS),Global (1:1 Relation-Matched),555,30.41% ± 0.86%,0.647 ± 0.006,36.97% ± 0.93%,75.7% / 92.3%,241.0,—
+JEPA 5L-InfoNCE (OPUS),Local (Arab/MENA Ontology),555,39.41% ± 0.87%,0.716 ± 0.007,48.83% ± 0.99%,79.8% / 96.4%,204.3,***
+JEPA 5L-SIGReg (OPUS),Global (1:1 Relation-Matched),555,19.30% ± 0.72%,0.453 ± 0.015,21.77% ± 0.67%,39.5% / 60.9%,206.1,—
+JEPA 5L-SIGReg (OPUS),Local (Arab/MENA Ontology),555,24.27% ± 0.79%,0.601 ± 0.014,27.60% ± 0.86%,40.2% / 58.4%,155.3,***
+mE5-Base (Upper-Bound),Global (1:1 Relation-Matched),555,53.44% ± 0.88%,0.675 ± 0.006,58.22% ± 0.83%,98.7% / 100.0%,304.9,—
+mE5-Base (Upper-Bound),Local (Arab/MENA Ontology),555,61.01% ± 0.80%,0.750 ± 0.006,67.60% ± 0.78%,96.9% / 100.0%,265.0,***
