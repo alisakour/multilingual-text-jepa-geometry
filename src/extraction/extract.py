@@ -85,7 +85,6 @@ def extract_all_layers_both_poolings(
         "mean": np.stack([np.vstack(mean_layers[l]) for l in range(num_states)], axis=0).astype(np.float32),
     }
 
-
 def extract_and_cache_all_models(
     models_registry: Sequence[Dict[str, Any]],
     df_benchmark: pd.DataFrame,
@@ -94,21 +93,24 @@ def extract_and_cache_all_models(
     batch_size: int = 128,
     max_length: int = 64,
     overwrite: bool = False,
+    save_both_poolings: bool = True,
 ) -> None:
-    """Extract and cache required poolings for every unique Hugging Face repo in the registry."""
+    """Extract and cache representations for every unique Hugging Face repo in the registry."""
     hf_logging.set_verbosity_error()
     resolved_device = ("cuda" if torch.cuda.is_available() else "cpu") if device == "auto" else device
     cache_path = Path(cache_dir)
     cache_path.mkdir(parents=True, exist_ok=True)
 
-    # Group required pooling modes per unique HF repo (e.g., XLM-R needs both cls & mean)
     repo_poolings: Dict[str, Set[str]] = defaultdict(set)
     ordered_repos: List[str] = []
     for cfg in models_registry:
         repo = cfg["hf_repo"]
         if repo not in repo_poolings:
             ordered_repos.append(repo)
-        repo_poolings[repo].add(cfg["pooling"])
+        if save_both_poolings:
+            repo_poolings[repo].update(("cls", "mean"))
+        else:
+            repo_poolings[repo].add(cfg["pooling"])
 
     print(f"Extraction device: {resolved_device} | Unique checkpoints: {len(ordered_repos)} | N={len(df_benchmark)}")
 
@@ -151,6 +153,7 @@ def extract_and_cache_all_models(
 def load_cached_layers(
     cfg: Dict[str, Any],
     cache_dir: Path | str = "data/cache",
+    pooling_override: str | None = None,
 ) -> Dict[str, np.ndarray]:
     """Load cached representations for one model config as {lang: array[num_layers+1, N, D]}."""
     npz_file = repo_cache_path(cfg["hf_repo"], cache_dir)
@@ -159,6 +162,6 @@ def load_cached_layers(
             f"Missing cached representations for '{cfg['name']}': {npz_file}. "
             "Run scripts/run_extraction.py first."
         )
-    pool = cfg["pooling"]
+    pool = pooling_override or cfg["pooling"]
     with np.load(npz_file) as data:
         return {lang: data[f"{lang}_{pool}"] for lang in LANGS}
