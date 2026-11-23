@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Datasets & cached representations
+data/
+mlama1.1/
+mlama1.1.zip
+*.npz
+*.npy
+*.pt
+*.pth
+
+# Experiment outputs & archives
+results/
+outputs/
+*.csv
+*.zip
+
+# Keep tracked configs and curated paper assets
+!configs/*.yaml
+!assets/*.csv
+!assets/*.png
+!assets/*.pdf
+
+# Notebooks & OS
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
