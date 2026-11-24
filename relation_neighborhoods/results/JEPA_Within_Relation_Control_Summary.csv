@@ -1,0 +1,7 @@
+pooling,language_pair,n_examples,n_relations,k,sigreg_example_weighted_shift_pp,infonce_example_weighted_shift_pp,objective_example_weighted_contrast_pp,sigreg_chance_adjusted_shift_pp,infonce_chance_adjusted_shift_pp,objective_chance_adjusted_contrast_pp,objective_relation_macro_contrast_pp,objective_relation_macro_chance_adjusted_contrast_pp,relations_sigreg_worse_than_infonce,relations_tied
+cls,AR-EN,1725,25,10,-6.67826,8.75942,-15.43768,-7.7852,10.41577,-18.20097,-12.42168,-18.46259,22,0
+cls,ZH-EN,1725,25,10,-2.0058,8.86377,-10.86957,-2.20202,10.41823,-12.62025,-9.3452,-11.83114,21,0
+cls,FR-EN,1725,25,10,-7.02609,15.31594,-22.34203,-8.53626,17.72255,-26.25881,-18.02404,-26.20744,25,0
+mean,AR-EN,1725,25,10,-12.37101,-0.73623,-11.63478,-14.79172,-0.84824,-13.94348,-10.37767,-15.42525,23,0
+mean,ZH-EN,1725,25,10,-7.96522,-1.54783,-6.41739,-9.13651,-2.17102,-6.96549,-4.21797,-3.82154,20,1
+mean,FR-EN,1725,25,10,-15.42609,1.11304,-16.53913,-18.7995,1.03781,-19.83732,-14.58146,-22.01422,25,0

@@ -1,0 +1,7 @@
+model,pooling,language_pair,n_examples,n_relations,l9_global_mutual_10nn_pct,l12_global_mutual_10nn_pct,delta_l12_minus_l9_pp,readme_delta_pp,matches_readme_within_0_15pp
+SIGReg 5-language OPUS100,cls,AR-EN,1725,25,24.53333,12.62029,-11.91304,-11.91,True
+SIGReg 5-language OPUS100,cls,ZH-EN,1725,25,22.87536,16.45797,-6.41739,-6.42,True
+SIGReg 5-language OPUS100,cls,FR-EN,1725,25,29.41449,16.6029,-12.81159,-12.81,True
+SIGReg 5-language OPUS100,mean,AR-EN,1725,25,37.6,20.74783,-16.85217,-16.85,True
+SIGReg 5-language OPUS100,mean,ZH-EN,1725,25,37.02609,24.8058,-12.22029,-12.22,True
+SIGReg 5-language OPUS100,mean,FR-EN,1725,25,47.13043,26.33623,-20.7942,-20.79,True
