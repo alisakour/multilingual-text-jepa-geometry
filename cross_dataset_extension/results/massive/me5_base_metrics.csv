@@ -1,0 +1,13 @@
+checkpoint,group,repo,revision,lambda_metadata,epoch,recorded_steps,weights_sha256,pooling,layer,language_pair,n_examples,knn_pct,rank_src,rank_en
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,AR-EN,2974,12.639542703429724,315.5032669123148,306.0749205439844
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,ZH-EN,2974,20.16476126429052,302.69596919590435,306.0749205439844
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,FR-EN,2974,26.95696032279758,299.56372063924306,306.0749205439844
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,AR-EN,2974,30.11096166778749,507.18696082233197,513.348127127562
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,ZH-EN,2974,43.154001344989915,500.41748326358464,513.348127127562
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,FR-EN,2974,50.35642232683255,501.1744607570285,513.348127127562
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,AR-EN,2974,25.72629455279085,499.40941878421535,496.58534630542505
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,ZH-EN,2974,38.11365164761264,480.2910850187049,496.58534630542505
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,FR-EN,2974,41.341627437794216,478.1014256242346,496.58534630542505
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,AR-EN,2974,31.344989912575656,523.3157411368386,531.6637267786192
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,ZH-EN,2974,44.90921318090114,520.3646361719927,531.6637267786192
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,FR-EN,2974,52.66644250168123,516.2625710775299,531.6637267786192

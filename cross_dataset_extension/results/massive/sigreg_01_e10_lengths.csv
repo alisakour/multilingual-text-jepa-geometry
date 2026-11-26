@@ -1,0 +1,5 @@
+checkpoint,language,n_examples,n_over_128,pct_over_128,max_tokens,mean_tokens
+sigreg_01_e10,en,2974,0,0.0,72,10.029926025554808
+sigreg_01_e10,ar,2974,0,0.0,72,10.335574983187627
+sigreg_01_e10,zh,2974,0,0.0,50,9.561197041022192
+sigreg_01_e10,fr,2974,0,0.0,113,12.83759246805649
