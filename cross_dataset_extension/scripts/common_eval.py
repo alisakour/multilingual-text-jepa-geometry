@@ -6,7 +6,7 @@ import gc
 import hashlib
 import json
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
@@ -241,7 +241,6 @@ def extract_layers_and_lengths(
                 texts[start : start + 64],
                 truncation=False,
                 add_special_tokens=True,
-                verbose=False,
             )["input_ids"]
         ]
         n_over = sum(n > max_length for n in lens)
@@ -392,11 +391,12 @@ def evaluate_single_checkpoint(
 
 
 def compute_layer_shifts(metrics_df: pd.DataFrame) -> pd.DataFrame:
-    idx_cols = ["checkpoint", "group", "epoch", "lambda_metadata", "pooling", "language_pair"]
+    idx_cols = ["checkpoint", "pooling", "language_pair"]
     l9 = metrics_df[metrics_df["layer"] == 9].set_index(idx_cols)
     l12 = metrics_df[metrics_df["layer"] == 12].set_index(idx_cols)
+    meta_cols = ["group", "epoch", "lambda_metadata"]
     val_cols = ["knn_pct", "rank_src", "rank_en"]
-    joined = l9[val_cols].join(l12[val_cols], lsuffix="_l9", rsuffix="_l12")
+    joined = l9[meta_cols + val_cols].join(l12[val_cols], lsuffix="_l9", rsuffix="_l12")
     for col in val_cols:
         joined[f"{col}_shift"] = joined[f"{col}_l12"] - joined[f"{col}_l9"]
     return joined.reset_index()
