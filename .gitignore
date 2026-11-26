@@ -28,7 +28,8 @@ outputs/
 !assets/*.png
 !assets/*.pdf
 !assets/meanpool_control/*.csv
-
+!cross_dataset_extension/results/ntrex_full/*.csv
+!cross_dataset_extension/results/massive/*.csv
 # Notebooks & OS
 .ipynb_checkpoints/
 .DS_Store
