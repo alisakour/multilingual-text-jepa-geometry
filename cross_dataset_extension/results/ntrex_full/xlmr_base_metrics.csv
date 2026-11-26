@@ -1,0 +1,13 @@
+checkpoint,group,repo,revision,lambda_metadata,epoch,recorded_steps,weights_sha256,pooling,layer,language_pair,n_examples,knn_pct,rank_src,rank_en
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,9,AR-EN,1997,7.095643465197797,232.82369152340794,208.23392029577718
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,9,ZH-EN,1997,7.280921382073109,242.11530001975544,208.23392029577718
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,9,FR-EN,1997,11.357035553329995,221.5514125969034,208.23392029577718
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,12,AR-EN,1997,13.960941412118178,317.6861387429263,316.1837809477309
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,12,ZH-EN,1997,14.371557336004006,328.25387799141055,316.1837809477309
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,cls,12,FR-EN,1997,19.629444166249375,314.64066597312944,316.1837809477309
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,9,AR-EN,1997,27.070605908863293,486.71333877370364,491.5693319987168
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,9,ZH-EN,1997,28.28242363545318,480.68070357651783,491.5693319987168
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,9,FR-EN,1997,36.21932899349024,485.0272242541375,491.5693319987168
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,12,AR-EN,1997,21.026539809714574,420.7842773374766,422.14069103320685
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,12,ZH-EN,1997,26.089133700550825,416.3933412771391,422.14069103320685
+xlmr_base,baseline_mlm,FacebookAI/xlm-roberta-base,main,,0,0,6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb,mean,12,FR-EN,1997,27.746619929894845,416.5659846900838,422.14069103320685

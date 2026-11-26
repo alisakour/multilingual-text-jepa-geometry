@@ -1,0 +1,13 @@
+checkpoint,group,repo,revision,lambda_metadata,epoch,recorded_steps,weights_sha256,pooling,layer,language_pair,n_examples,knn_pct,rank_src,rank_en
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,AR-EN,1997,19.514271407110666,293.01024125053124,284.0497273992482
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,ZH-EN,1997,21.86780170255383,287.85033999615956,284.0497273992482
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,9,FR-EN,1997,33.58537806710065,282.04912734855174,284.0497273992482
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,AR-EN,1997,45.07761642463696,516.5763403305262,523.9063866943327
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,ZH-EN,1997,49.23885828743115,514.7308665264537,523.9063866943327
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,cls,12,FR-EN,1997,53.89584376564848,524.8041273276432,523.9063866943327
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,AR-EN,1997,33.80070105157736,482.84840222778075,488.6551830369871
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,ZH-EN,1997,33.96594892338508,486.3460315114786,488.6551830369871
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,9,FR-EN,1997,40.73109664496745,478.9308123375079,488.6551830369871
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,AR-EN,1997,45.753630445668506,526.0678975156501,529.5267157755106
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,ZH-EN,1997,50.83625438157235,527.3782347598169,529.5267157755106
+me5_base,supervised_upper_bound,intfloat/multilingual-e5-base,main,,0,0,a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7,mean,12,FR-EN,1997,52.068102153229844,526.9093040198031,529.5267157755106

@@ -1,0 +1,5 @@
+checkpoint,language,n_examples,n_over_256,pct_over_256,max_tokens,mean_tokens
+xlmr_base,en,1997,0,0.0,108,31.622433650475713
+xlmr_base,ar,1997,0,0.0,122,37.68152228342514
+xlmr_base,zh,1997,0,0.0,158,30.74111166750125
+xlmr_base,fr,1997,0,0.0,132,39.656484727090636
