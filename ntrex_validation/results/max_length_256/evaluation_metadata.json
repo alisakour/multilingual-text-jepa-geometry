@@ -1,0 +1,58 @@
+{
+  "dataset": "NTREX-128",
+  "dataset_repository": "https://github.com/MicrosoftTranslator/NTREX",
+  "dataset_revision": "468c6b69c7f6a75d31d4743d9daba2af566cc18d",
+  "dataset_license": "CC BY-SA 4.0",
+  "dataset_files": {
+    "en": {
+      "file": "newstest2019-src.eng.txt",
+      "git_blob_sha1": "ebc28ab1a5b3561d7e6fee2173441a7d2bfa1edd",
+      "sha256": "389e8f5796c66db4f646dfad33e1ec622d74767af5ef112b42a1f2cd814df3cc",
+      "n_examples": 1997,
+      "unique_texts": 1997
+    },
+    "ar": {
+      "file": "newstest2019-ref.arb.txt",
+      "git_blob_sha1": "bfe5e9fd9f1f89363ff5320a83a487cddf8412e5",
+      "sha256": "d271c8645933421f760eba8ed8cc1ceaaa052f917d9c2839b8abb27e0ded71e6",
+      "n_examples": 1997,
+      "unique_texts": 1995
+    },
+    "zh": {
+      "file": "newstest2019-ref.zho-CN.txt",
+      "git_blob_sha1": "20b794983bd59c10adb16714f9a7d880e8a8fba1",
+      "sha256": "8bcd6f0868d33f26c8da12f55a82f66088a7b60a5f7b0b1a99dcec51daa8054a",
+      "n_examples": 1997,
+      "unique_texts": 1997
+    },
+    "fr": {
+      "file": "newstest2019-ref.fra.txt",
+      "git_blob_sha1": "74d0fa25e19f64580ef1d75d6188bdcd354c5b37",
+      "sha256": "1dd80d337f6a75c6ed579a95f09ca9b85d87d6e488d0a428c5f89cca99553136",
+      "n_examples": 1997,
+      "unique_texts": 1996
+    }
+  },
+  "batch_size": 32,
+  "max_length": 256,
+  "k": 10,
+  "layers": [
+    9,
+    12
+  ],
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.57.4",
+  "gpu": "Tesla T4",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "complete_checkpoints": 5,
+  "expected_checkpoints": 5,
+  "completed_ids": [
+    "infonce_01_e1",
+    "sigreg_01_e1",
+    "infonce_01_e4",
+    "sigreg_01_e4",
+    "infonce_1_e4"
+  ]
+}
