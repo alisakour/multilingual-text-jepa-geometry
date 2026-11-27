@@ -1,0 +1,3 @@
+checkpoint,repo,revision,lambda_metadata,epoch,recorded_steps,stage,weights_sha256
+infonce_01_e4,maktzgls/bert-jepa-infonce-opus100-5lang-infonce,6cdb7c65d6a636c73033cd72b096bf0fa5e3bdec,0.1,4,3124,pilot,b6b0393462abb87bcfff6d7d2eaf9ead00485e997d16463a4870fd0e5669dab7
+sigreg_01_e4,maktzgls/bert-jepa-sigreg-opus100-5lang-sigreg,b2848e5015557beb65746e3ddc5106b62730f411,0.1,4,12500,pilot,bf392d66b980e9c82ad0264e30bc82b4603e91b326acbf8a1f2238d50c4dc482

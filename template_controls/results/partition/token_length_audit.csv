@@ -1,0 +1,17 @@
+checkpoint,condition,language,n,max,n_over_64
+infonce_01_e4,fixed_a,en,858,20,0
+infonce_01_e4,fixed_a,ar,858,28,0
+infonce_01_e4,fixed_a,zh,858,22,0
+infonce_01_e4,fixed_a,fr,858,23,0
+infonce_01_e4,fixed_b,en,858,23,0
+infonce_01_e4,fixed_b,ar,858,28,0
+infonce_01_e4,fixed_b,zh,858,24,0
+infonce_01_e4,fixed_b,fr,858,24,0
+sigreg_01_e4,fixed_a,en,858,20,0
+sigreg_01_e4,fixed_a,ar,858,28,0
+sigreg_01_e4,fixed_a,zh,858,22,0
+sigreg_01_e4,fixed_a,fr,858,23,0
+sigreg_01_e4,fixed_b,en,858,23,0
+sigreg_01_e4,fixed_b,ar,858,28,0
+sigreg_01_e4,fixed_b,zh,858,24,0
+sigreg_01_e4,fixed_b,fr,858,24,0
