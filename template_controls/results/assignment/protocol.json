@@ -1,0 +1,16 @@
+{
+  "seeds": [
+    42,
+    17,
+    101,
+    202,
+    303
+  ],
+  "checkpoints": [
+    "infonce_01_e4",
+    "sigreg_01_e4"
+  ],
+  "n_facts": 858,
+  "benchmark_sha256": "4a8fe28fb1a9ddb73e3431a60a200d80cbf31e0f4dc69967a83469495345404f",
+  "note": "Assignment seeds, not model-training seeds; draft paraphrases; overlap only."
+}

@@ -1,0 +1,37 @@
+relation,language,template_id,template
+P190,en,0,[X] and [Y] are twin cities .
+P190,en,1,[X] and [Y] are sister cities.
+P190,en,2,A sister-city partnership links [X] and [Y].
+P190,ar,0,[X] و [Y] مدينتان توأمتان.
+P190,ar,1,[X] و[Y] تربطهما علاقة توأمة.
+P190,ar,2,هناك توأمة بين مدينتي [X] و[Y].
+P190,zh,0,[X]和[Y]是双子城。
+P190,zh,1,[X]与[Y]互为姐妹城市。
+P190,zh,2,[X]与[Y]之间存在姐妹城市关系。
+P190,fr,0,[X] et [Y] sont des villes jumelles.
+P190,fr,1,[X] et [Y] sont deux villes jumelées.
+P190,fr,2,Un jumelage unit [X] et [Y].
+P47,en,0,[X] shares border with [Y] .
+P47,en,1,[X] and [Y] share a border.
+P47,en,2,There is a shared border between [X] and [Y].
+P47,ar,0,[X] تشترك في الحدود مع [Y].
+P47,ar,1,[X] و[Y] لهما حدود مشتركة.
+P47,ar,2,هناك حدود مشتركة بين [X] و[Y].
+P47,zh,0,[X]与[Y]共享边界。
+P47,zh,1,[X]和[Y]有共同边界。
+P47,zh,2,[X]与[Y]之间有共同的边界。
+P47,fr,0,[X] partage la frontière avec [Y].
+P47,fr,1,[X] et [Y] ont une frontière commune.
+P47,fr,2,Il existe une frontière commune entre [X] et [Y].
+P530,en,0,[X] maintains diplomatic relations with [Y] .
+P530,en,1,[X] and [Y] have diplomatic relations.
+P530,en,2,Diplomatic relations exist between [X] and [Y].
+P530,ar,0,[X] تقيم علاقات دبلوماسية مع [Y].
+P530,ar,1,[X] و[Y] لديهما علاقات دبلوماسية.
+P530,ar,2,توجد علاقات دبلوماسية بين [X] و[Y].
+P530,zh,0,[X]与[Y]建交。
+P530,zh,1,[X]和[Y]建立了外交关系。
+P530,zh,2,[X]与[Y]之间已建立外交关系。
+P530,fr,0,[X] entretient des relations diplomatiques avec [Y].
+P530,fr,1,[X] et [Y] ont des relations diplomatiques.
+P530,fr,2,Des relations diplomatiques existent entre [X] et [Y].

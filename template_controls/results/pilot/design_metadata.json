@@ -1,0 +1,18 @@
+{
+  "source_sha256": "4a8fe28fb1a9ddb73e3431a60a200d80cbf31e0f4dc69967a83469495345404f",
+  "seed": 42,
+  "n_facts": 858,
+  "relations": {
+    "P530": 447,
+    "P190": 270,
+    "P47": 141
+  },
+  "conditions": [
+    "original",
+    "fixed_a",
+    "fixed_b",
+    "mixed_a",
+    "mixed_b"
+  ],
+  "semantic_review": "draft alternatives; native-speaker validation pending"
+}
